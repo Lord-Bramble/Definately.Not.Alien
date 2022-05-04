@@ -399,6 +399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1035324586316292643}
+  - component: {fileID: 2515552751290220561}
   m_Layer: 0
   m_Name: Prefab_Lockers
   m_TagString: Untagged
@@ -422,6 +423,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2515552751290220561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5414204898696884724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010197935, y: 0.020290395, z: 0.006297919}
+  m_Center: {x: 0.00006547808, y: 0.009948455, z: 0.00036510616}
 --- !u!1 &5457687333092748110
 GameObject:
   m_ObjectHideFlags: 0
