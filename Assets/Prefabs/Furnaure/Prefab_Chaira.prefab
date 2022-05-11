@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 4388548856528485956}
   - component: {fileID: -5754084199372789682}
   - component: {fileID: -7511558181221131132}
-  - component: {fileID: 5715030389940593670}
+  - component: {fileID: 1175997661176176936}
   m_Layer: 0
   m_Name: Prefab_Chaira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4388548856528485956
 Transform:
@@ -26,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4368493867469777246}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.00006157011, z: 0}
-  m_LocalScale: {x: 100, y: 75, z: 100}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4368493867469777246}
-  m_Mesh: {fileID: 4068373912626513877, guid: 1e986cdb4d269c04eba4c1eb6da8fe45, type: 3}
+  m_Mesh: {fileID: 6606501483488557099, guid: f4b577c301e3ff24bbceb71a527ba78f, type: 3}
 --- !u!23 &-7511558181221131132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: 1e986cdb4d269c04eba4c1eb6da8fe45, type: 3}
+  - {fileID: 2100000, guid: 8d4376150cf7e7b4996cd195a9f72f4a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5715030389940593670
+--- !u!65 &1175997661176176936
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,5 +93,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.010000635, y: 0.020000128, z: 0.01000132}
-  m_Center: {x: 0.000000006519258, y: 0.0101232035, z: 0.0000006603077}
+  m_Size: {x: 0.010000003, y: 0.0165, z: 0.010000003}
+  m_Center: {x: 0, y: 0.00825, z: 0}

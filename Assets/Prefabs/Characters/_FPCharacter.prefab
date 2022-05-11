@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3020366304796178264}
   m_Layer: 0
   m_Name: _GRAPHIC
-  m_TagString: Untagged
+  m_TagString: PlayerBody
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 3020366305579149212}
   - component: {fileID: 3020366305579149213}
   - component: {fileID: 3020366305579149210}
+  - component: {fileID: 304176135596345679}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -317,6 +318,25 @@ MonoBehaviour:
   m_clampAngle: 90
   m_playerObject: {fileID: 3020366304088509114}
   m_camera: {fileID: 3020366305579149211}
+--- !u!114 &304176135596345679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3020366305579149214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c28c338ef0b93c4894a64dfc5a8ff6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayLength: 2
+  LayerMaskInteract:
+    serializedVersion: 2
+    m_Bits: 256
+  excludeLayerName: 
+  openDoorKey: 101
+  crosshair: {fileID: 0}
 --- !u!1 &3020366305584861422
 GameObject:
   m_ObjectHideFlags: 0
