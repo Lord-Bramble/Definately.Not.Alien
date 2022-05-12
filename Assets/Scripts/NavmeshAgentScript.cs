@@ -79,6 +79,7 @@ public class NavmeshAgentScript : MonoBehaviour
 
         if (AIState == 3) // ON PATROL -- THIS ALL WORKS AS DESIRED. 
         {
+            PatrolPointCount = wayPoints.Length;
             agent.speed = patrolSpeed;
             currentDestination = wayPoints[PatrolPoint].transform;
             dist = Vector3.Distance(currentDestination.position, transform.position);

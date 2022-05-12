@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: -1253041693151270171}
   - component: {fileID: 478624827076566745}
   - component: {fileID: 6303482991980717752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Energy_ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &-5668492583383981231
 Transform:
@@ -175,12 +175,12 @@ GameObject:
   - component: {fileID: -7066786013028678307}
   - component: {fileID: -8758365116577616261}
   - component: {fileID: 8683731823908013767}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gen_Module_left_pCube2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &-7066786013028678307
 Transform:
@@ -254,12 +254,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5359816201532202905}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Prefab_FTLDrive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5359816201532202905
 Transform:
@@ -289,12 +289,12 @@ GameObject:
   - component: {fileID: -4000361085443223695}
   - component: {fileID: 2164057509636191678}
   - component: {fileID: 7963350948255028427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: sweep17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &-4000361085443223695
 Transform:
