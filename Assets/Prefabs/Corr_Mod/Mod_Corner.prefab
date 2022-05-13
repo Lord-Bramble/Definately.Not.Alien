@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: -376499447422176814}
   - component: {fileID: -3901992563441801604}
   - component: {fileID: 7458034451562861507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pPlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2042023225869285003
 Transform:
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b69c4363ad0f47e47810ed025e05cae1, type: 2}
+  - {fileID: 2100000, guid: bcb3593669f73054a9c6ac3d9ad091e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,12 +106,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4029888726670851689}
   - component: {fileID: 294096873785934727}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mod_Corner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4029888726670851689
 Transform:
@@ -154,12 +154,12 @@ GameObject:
   - component: {fileID: -3198514369382079268}
   - component: {fileID: 5904079828633796489}
   - component: {fileID: 4495414801083549842}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pPlane2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &-3198514369382079268
 Transform:

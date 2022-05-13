@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: -376499447422176814}
   - component: {fileID: -3901992563441801604}
   - component: {fileID: 7849253073522792381}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: pPlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2042023225869285003
 Transform:
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: e6c03d66141a0624cba8e2e980dc08b3, type: 3}
+  - {fileID: 2100000, guid: b669c98ae4ce8ec42bbf59aea4917ee4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,12 +106,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1555148165475904635}
   - component: {fileID: -703519765397594562}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mod_Wall_Straight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1555148165475904635
 Transform:

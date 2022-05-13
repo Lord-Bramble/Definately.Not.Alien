@@ -65,12 +65,12 @@ public class NavmeshAgentScript : MonoBehaviour
         {
             agent.speed = chaseSpeed;
             seenDist = Vector3.Distance(lastSeenAt, guardPosition);
-            if (seenDist > 0.3)
+            if (seenDist > patrolCheckRange)
             {
                 agent.SetDestination(lastSeenAt);
-                //Debug.Log("lastSeenAt = " + lastSeenAt + " seenDist = " + seenDist);
+                Debug.Log("lastSeenAt = " + lastSeenAt + " seenDist = " + seenDist);
             }
-            else if (seenDist <= 0.3)
+            else if (seenDist <= patrolCheckRange)
             {
                 Invoke("DelayedSwitch", delay);
                 seenDist = 100;
@@ -83,10 +83,12 @@ public class NavmeshAgentScript : MonoBehaviour
             agent.speed = patrolSpeed;
             currentDestination = wayPoints[PatrolPoint].transform;
             dist = Vector3.Distance(currentDestination.position, transform.position);
-            Debug.Log("No of points: " + PatrolPointCount + " Current: " + PatrolPoint);
+            //Debug.Log("CDest: " + currentDestination + " CD: " + dist);
+            //Debug.Log("No of points: " + PatrolPointCount + " Current: " + PatrolPoint);
 
             if (dist > patrolCheckRange)
             {
+                //Debug.Log("trying to get there");
                 agent.SetDestination(currentDestination.position);
             }
             else if (dist <= patrolCheckRange && PatrolPoint == (PatrolPointCount - 1))

@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 7159731985355974710}
   - component: {fileID: 2163001374488126590}
   - component: {fileID: 4541149990051024021}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Door_Piller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8656971225417514124
 Transform:

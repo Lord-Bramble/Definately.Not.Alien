@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: -5754084199372789682}
   - component: {fileID: -7511558181221131132}
   - component: {fileID: 2796459951358315309}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Prefab_Pilotseat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6463624468689238741
 Transform:
