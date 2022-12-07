@@ -14,7 +14,7 @@ public class TextPopup : MonoBehaviour
     private bool keyWasPressed;
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         initialMessage = textField.text;
@@ -22,7 +22,7 @@ public class TextPopup : MonoBehaviour
         textNumber = 0;
     }
 
-    // Update is called once per frame
+
 
     private void Update()
     {
