@@ -24,7 +24,7 @@ public class Antidote : MonoBehaviour
             ButtonToEnable.GetComponent<BoxCollider>().enabled = true;
             //Lockcheck takes place at button.
 
-            textToChange.text = true; 
+            ; 
             Destroy(gameObject);
         }
         
