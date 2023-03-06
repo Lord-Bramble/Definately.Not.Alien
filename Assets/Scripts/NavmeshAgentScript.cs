@@ -28,6 +28,11 @@ public class NavmeshAgentScript : MonoBehaviour
     public float delay = 3f;
     public float patrolCheckRange;
 
+    [SerializeField] private string runAnimationName = "Run";
+    [SerializeField] private string walkAnimationName = "Walking";
+
+    [SerializeField] private Animator enemyAnim = null;
+
     // This enemy uses an integer to flag the AI state:
 
     // 1 = Head to the player and raycast to check LOS again
@@ -57,13 +62,16 @@ public class NavmeshAgentScript : MonoBehaviour
         if (AIState == 1)
         {
             agent.speed = chaseSpeed;
+            enemyAnim.Play(runAnimationName, 0, 0.0f);
             agent.SetDestination(target.position);
             lastSeenAt = target.transform.position;
+            
         }
 
         if (AIState == 2) // HEAD TO LAST PLACE PLAYER WAS SEEN 
         {
             agent.speed = chaseSpeed;
+            enemyAnim.Play(runAnimationName, 0, 0.0f);
             seenDist = Vector3.Distance(lastSeenAt, guardPosition);
             if (seenDist > patrolCheckRange)
             {
@@ -81,6 +89,7 @@ public class NavmeshAgentScript : MonoBehaviour
         {
             PatrolPointCount = wayPoints.Length;
             agent.speed = patrolSpeed;
+            enemyAnim.Play(walkAnimationName, 0, 0.0f);
             currentDestination = wayPoints[PatrolPoint].transform;
             dist = Vector3.Distance(currentDestination.position, transform.position);
             //Debug.Log("CDest: " + currentDestination + " CD: " + dist);
